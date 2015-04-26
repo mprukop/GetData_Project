@@ -21,3 +21,7 @@ Lines 15-17 are making tidy data set. First for loop is for volunteers (1 to 30)
 In line 18 function is assigning activity names in column Activities.
 
 The last line returns tidied up data set.
+
+
+##tl;dr:
+Non parameterized function run_analysis() accesses to SAMSUNG data folder localized in working dirctory, reads all necessary data, calculate average of each mean and standard deviation variable for each activity and each subject and returns them in tieded data frame.
